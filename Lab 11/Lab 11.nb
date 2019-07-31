@@ -1,0 +1,131 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3537,        123]
+NotebookOptionsPosition[      3243,        110]
+NotebookOutlinePosition[      3584,        125]
+CellTagsIndexPosition[      3541,        122]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"F", "=", 
+  FractionBox[
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"\[Gamma]", "-", "1"}], ")"}], "M", " ", "\[Kappa]"}], 
+   SubscriptBox["k", "B"]]}], "\[IndentingNewLine]", 
+ RowBox[{"D1", "=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{
+       SubsuperscriptBox["v", "j", 
+        RowBox[{"n", "+", "1"}]], "+", 
+       SubsuperscriptBox["v", "j", "n"]}], ")"}]}], 
+    RowBox[{"2", "h"}]], "+", 
+   FractionBox["F", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{
+       SubsuperscriptBox["\[Rho]", "j", 
+        RowBox[{"n", "+", "1"}]], "+", 
+       SubsuperscriptBox["\[Rho]", "j", "n"]}], ")"}], 
+     SuperscriptBox["h", "2"]}]]}]}], "\[IndentingNewLine]", 
+ RowBox[{"D2", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", 
+     RowBox[{"(", 
+      RowBox[{"\[Gamma]", "-", "1"}], ")"}]}], 
+    FractionBox[
+     RowBox[{
+      RowBox[{
+       FractionBox["1", "2"], 
+       RowBox[{"(", 
+        RowBox[{
+         SubsuperscriptBox["v", 
+          RowBox[{"j", "+", "1"}], 
+          RowBox[{"n", "+", "1"}]], "+", 
+         SubsuperscriptBox["v", 
+          RowBox[{"j", "+", "1"}], "n"]}], ")"}]}], "-", 
+      RowBox[{
+       FractionBox["1", "2"], 
+       RowBox[{"(", 
+        RowBox[{
+         SubsuperscriptBox["v", 
+          RowBox[{"j", "-", "1"}], 
+          RowBox[{"n", "+", "1"}]], "+", 
+         SubsuperscriptBox["v", 
+          RowBox[{"j", "-", "1"}], "n"]}], ")"}]}]}], 
+     RowBox[{"2", "h"}]]}], "-", 
+   FractionBox[
+    RowBox[{"2", "F"}], 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{
+       SubsuperscriptBox["\[Rho]", "j", 
+        RowBox[{"n", "+", "1"}]], "+", 
+       SubsuperscriptBox["\[Rho]", "j", "n"]}], ")"}], 
+     SuperscriptBox["h", "2"]}]]}]}], "\[IndentingNewLine]", 
+ RowBox[{"D3", "=", 
+  RowBox[{
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{
+      FractionBox["1", "2"], 
+      RowBox[{"(", 
+       RowBox[{
+        SubsuperscriptBox["v", "j", 
+         RowBox[{"n", "+", "1"}]], "+", 
+        SubsuperscriptBox["v", "j", "n"]}], ")"}]}], 
+     RowBox[{"2", "h"}]]}], "+", 
+   FractionBox["F", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{
+       SubsuperscriptBox["\[Rho]", "j", 
+        RowBox[{"n", "+", "1"}]], "+", 
+       SubsuperscriptBox["\[Rho]", "j", "n"]}], ")"}], 
+     SuperscriptBox["h", "2"]}]]}]}]}], "Input",
+ CellChangeTimes->{{3.762084251961343*^9, 3.762084293107642*^9}, {
+  3.7620843362783804`*^9, 3.7620845688134775`*^9}, {3.762084611616434*^9, 
+  3.762084685248727*^9}},ExpressionUUID->"efbea499-48e3-4afa-a108-\
+2d8ab9672a8a"]
+},
+WindowSize->{958, 988},
+WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2681, 88, 280, "Input",ExpressionUUID->"efbea499-48e3-4afa-a108-2d8ab9672a8a"]
+}
+]
+*)
+
