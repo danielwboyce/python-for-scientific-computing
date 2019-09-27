@@ -1,1 +1,0 @@
-The code in /src is broken up so that each file is the solution to a separate problem from the corresponding chapter of the lab manual. The section of interest from the manual is in .pdf form in this directory.
