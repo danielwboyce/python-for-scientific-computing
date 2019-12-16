@@ -60,7 +60,7 @@ for m in range(len(t)):
     if m % skip == 0:
         plt.clf()
         ax = fig.gca(projection='3d')
-        surf = ax.plot_surface(X,Y,Z)
+        surf = ax.plot_surface(X,Y,Z, cmap='jet')
         ax.set_zlim(-0.5, 0.5)
         plt.xlabel('x')
         plt.ylabel('y')
